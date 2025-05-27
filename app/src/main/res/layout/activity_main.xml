@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightorange"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- TITLE-GPA CALCULATOR -->
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GPA Calculator"
+            android:backgroundTint="#6C63FF"
+            android:textColor="#111827"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+            <!--android:fontFamily="@font/poppinsbold"-->
+
+
+        <!-- Enter number of subjects -->
+
+        <!-- Button to Generate Table -->
+
+        <!-- Table -->
+
+        <LinearLayout
+            android:id="@+id/tableHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="8dp">
+
+            <TextView
+                android:layout_width="5dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Subject"
+                android:textSize="14sp"
+                android:textColor="#111827"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Marks"
+                android:textSize="14sp"
+                android:textColor="#111827"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Credits"
+                android:textSize="14sp"
+                android:textColor="#111827"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="8dp">
+
+            <EditText
+                android:id="@+id/s1"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:text="Enter Subject"
+                android:textColor="#111827"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/m1"
+                android:layout_width="1dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:text="Enter Marks"
+                android:textSize="14sp"
+                android:textColor="#111827"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/c1"
+                android:layout_width="5dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:text="Enter Credits"
+                android:textSize="14sp"
+                android:textColor="#111827"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="8dp">
+
+            <EditText
+                android:id="@+id/s2"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:text="Enter Subject"
+                android:textColor="#111827"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/m2"
+                android:layout_width="1dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:text="Enter Marks"
+                android:textSize="14sp"
+                android:textColor="#111827"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/c2"
+                android:layout_width="5dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:text="Enter Credits"
+                android:textSize="14sp"
+                android:textColor="#111827"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="8dp">
+
+            <EditText
+                android:id="@+id/s3"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:text="Enter Subject"
+                android:textColor="#111827"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/m3"
+                android:layout_width="1dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:text="Enter Marks"
+                android:textSize="14sp"
+                android:textColor="#111827"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/c3"
+                android:layout_width="5dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:text="Enter Credits"
+                android:textSize="14sp"
+                android:textColor="#111827"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="8dp">
+
+            <EditText
+                android:id="@+id/s4"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:text="Enter Subject"
+                android:textColor="#111827"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/m4"
+                android:layout_width="1dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:text="Enter Marks"
+                android:textSize="14sp"
+                android:textColor="#111827"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/c4"
+                android:layout_width="5dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:text="Enter Credits"
+                android:textSize="14sp"
+                android:textColor="#111827"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/subjBox"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:text="Enter Subject"
+                android:textColor="#111827"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/markBox"
+                android:layout_width="1dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:text="Enter Marks"
+                android:textSize="14sp"
+                android:textColor="#111827"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/credBox"
+                android:layout_width="5dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:text="Enter Credits"
+                android:textSize="14sp"
+                android:textColor="#111827"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <!-- Dynamic Table -->
+
+        <!-- Calculate GPA Button -->
+        <Button
+            android:id="@+id/calculateGpaButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calculate GPA"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="@color/darkorange"
+            android:paddingHorizontal="32dp"
+            android:paddingVertical="12dp"
+            android:layout_marginTop="24dp"
+            android:textSize="16sp"/>
+            <!--android:fontFamily="@font/poppinsmedium" -->
+
+        <!-- Reset Button -->
+        <Button
+            android:id="@+id/resetButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reset"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="@color/darkorange"
+            android:paddingHorizontal="32dp"
+            android:paddingVertical="12dp"
+            android:layout_marginTop="16dp"
+            android:textSize="16sp"/>
+            <!--android:fontFamily="@font/poppinsmedium" -->
+
+        <!-- Printing GPA -->
+        <TextView
+            android:id="@+id/gpaResultText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your GPA: "
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#111827"
+            android:layout_marginTop="24dp"/>
+            <!--android:fontFamily="@font/poppinsbold" -->
+
+        <TextView
+            android:id="@+id/about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Made by Nithila"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="32dp"/>
+
+    </LinearLayout>
+</ScrollView>
